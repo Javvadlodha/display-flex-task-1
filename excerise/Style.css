@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    background-color: rgb(255, 17, 0);
+    /* padding: 10px; */
+}
+.one{
+    background-color: white;
+    height: 30px;
+    width: 90px;
+    margin: 18px;
+}
+.main_2{
+    display: flex;
+    background-color: rgb(255, 17, 0);
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.two{
+    background-color: white;
+    height: 30px;
+    width: 90px;
+    margin: 18px;
+}
+.main_3{
+    background-color: rgb(255, 17, 0);
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+.three{
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    margin: 18px;
+}
+.main_4{
+    background-color: rgb(255, 17, 0);
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+.four{
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    margin: 18px;
+}
+.main_5{
+    background-color: rgb(255, 17, 0);
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.five{
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    margin: 18px;
+}
+.main_6{
+    display: flex;
+    background-color: white;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.six{
+    background-color: rgb(255, 17, 0);
+    width: 500px;
+    height: 250px;
+    margin: 21px;
+}
+#six-3{
+    width: 200px;
+    height: 550px;   
+}
+#six-4,#six-5{
+    /* margin-top: -20%; */
+}
+#six-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.box1-1{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.box1-2{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.six-1-1{
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    /* margin: 50px; */
+}
+#six-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.six-2-2{
+    background-color: white;
+    width: 90px;
+    height: 30px;
+}
+#six-3{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+}
+.six-3-3{
+    background-color: white;
+    width: 70px;
+    margin: 15px;
+    margin: 15px;
+}
+#six-4{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+.six-4-4{
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    margin: 30px;
+}
+#six-5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.six-1{
+    display: flex;
+}
+
+.box{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.first-row{
+    background-color: white;
+    width: 350px;
+    height: 15px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.second-row{
+    background-color: white;
+    width: 100px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}

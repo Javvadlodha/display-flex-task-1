@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.square{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one{
+    width: 450px;
+    height: 450px;
+    background-color: orange;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap;  */
+    padding: 20px;
+}
+.one-1-1{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.one-1-2{
+display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.second{
+    width: 450px;
+    height: 450px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+}
+.three{
+    width: 450px;
+    height: 450px;
+    background-color: orange;
+    margin: 5px;
+    display: flex;
+    justify-content: right;
+    align-items: self-end;
+    padding: 20px;
+}
+ .main-box{
+     display: flex;
+} 
+.one-1,.one-2,.one-3,.one-4{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    /* margin: 80px; */   
+}
+.second-1{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+.three-1{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+.four{
+    width: 450px;
+    height: 450px;
+    background-color: orange;
+    margin: 5px;
+    padding: 20px;
+}
+.four-4{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.four-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.four-1{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.four-2{
+    background-color: white;
+     width: 300px;
+    height: 20px;
+    margin-top: 10px;
+}
+.four-3{
+    background-color: white;
+     width: 100px;
+    height: 20px;
+}
+.five{
+        width: 600px;
+        background-color: orange;
+        /* margin: 10px; */
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 5px;
+    }
+.five-1{
+    background-color: white;
+    width: 130px;
+   height: 130px;
+}

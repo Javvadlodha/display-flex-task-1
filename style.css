@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: orangered;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.h-1{
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+.detail{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.d-1{
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+.detai-1{
+    background-color: orangered;
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.d1-1{
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+.detail-2{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.d2-1{
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+.detail-3{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.d3-1{
+    margin-right: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+.square{
+    display: flex;
+    flex-wrap: wrap;
+}
+.s-1,.s-2,.s-3,.s-4{
+    width: 500px;
+    height: 300px;
+    background-color: orangered;
+    margin: 5px;
+}
+.s-1{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.s2-1{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.s21-1{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 5px;
+}
+.s2-2{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.s22-1{
+    height:100px;;
+    width: 100px;
+    background-color: white;
+    margin: 5px;
+}
+.s-2{
+    display: flex; 
+     justify-content: center; 
+     align-items: center;
+     padding: 5px;
+}
+.ss{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+}
+.s-3{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    padding: 5px;
+}
+.st{
+    height: 100px;
+  width:100px;
+  background-color: white;
+}
+.b4{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* .row{
+    display: flex;
+} */
+ .s-4{
+    display: flex;
+    padding: 5px;
+ }
+.first-row{
+    width: 300px;
+    height: 30px;
+    background-color: white;
+    margin-top: 10px;
+}
+.second-row{
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    margin-top: 10px;
+}
+.mainbox{
+    display: flex;
+}
+.box{
+    width: 500px;
+    background-color: orangered;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mbox{
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin-bottom: 5px;
+}
